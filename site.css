@@ -24,8 +24,8 @@ button, input, select, textarea { font: inherit; }
 .skip:focus { translate: 0; }
 .header { padding-top: env(safe-area-inset-top); }
 .navigation { min-height: 5.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-.wordmark { display: inline-flex; flex-direction: column; font: 2rem/.9 var(--serif); text-decoration: none; letter-spacing: -.045em; }
-.wordmark span { margin-top: .42rem; font: 600 .68rem/1 system-ui, sans-serif; letter-spacing: .24em; text-transform: uppercase; }
+.wordmark { display: inline-flex; flex: 0 0 auto; align-items: center; min-height: 44px; }
+.wordmark img { display: block; width: clamp(9rem, 16vw, 12rem); height: auto; border-radius: 2px; }
 nav { display: flex; align-items: center; gap: clamp(1rem, 2.6vw, 2.8rem); }
 nav > a { display: flex; align-items: center; min-height: 44px; font-size: .94rem; font-weight: 600; text-decoration: none; }
 .menu-button { display: none; }
